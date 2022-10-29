@@ -1,11 +1,10 @@
-
 import { StyleSheet, Text, View } from 'react-native';
-import { Colors } from 'react-native/Libraries/NewAppScreen';
+import Home from './screens/Home';
 
 export default function App() {
   return (
     <View style={styles.container}>
-      <Text>hello world!</Text>
+      <Home />
 
     </View>
   );
@@ -15,8 +14,7 @@ const styles = StyleSheet.create({
   container: {
     flex: 1,
     backgroundColor: 'black',
-    alignItems: 'center',
-    justifyContent: 'center',
-   fontcolor:'white',
+  
+  
   },
 });
